@@ -1,5 +1,5 @@
-#include <device.h>
-#include <drivers/led.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/led.h>
 #include <zmk/event_manager.h>
 #include <zmk/keymap.h>
 #include <zmk/events/layer_state_changed.h>
@@ -8,7 +8,7 @@
 #include <zmk/events/ble_active_profile_changed.h>
 #include <zmk/events/endpoint_selection_changed.h>
 #include <zmk/led_widgets.h>
-#include <logging/log.h>
+#include <zephyr/logging/log.h>
 
 LOG_MODULE_REGISTER(led_widgets, 4);
 
